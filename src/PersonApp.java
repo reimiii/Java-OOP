@@ -11,6 +11,14 @@ public class PersonApp {
         var person2 = new Person("Toriq");
         person2.sayHelloTo("Bangun");
 
-        var person3 = new Person();
+        var person = new Person();
+        person.name = "Hilmi";
+        person.address = "Bogor";
+        person.sayHelloTo("David");
+
+        var manager = new Manager();
+        manager.name = "David";
+        manager.address = "Depok";
+        manager.sayHelloTo("Hilmi");
     }
 }
