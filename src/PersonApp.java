@@ -21,5 +21,11 @@ public class PersonApp {
         System.out.println("Belum naik Gaji: -> " + manager.getSalary());
         System.out.println("Sudah naik Gaji: " + manager.name + " -> " + manager.salary());
         manager.sayHelloTo("Hilmi");
+
+        Hewan kucing = new Kucing();
+        Hewan sapi = new Sapi();
+
+        Hewan.panggilSuara(kucing);
+        Hewan.panggilSuara(sapi);
     }
 }
