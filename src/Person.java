@@ -23,5 +23,8 @@ public class Person {
         System.out.println("Hello " + name + ", my name is " + this.name);
     }
 
-
+    // contoh untuk super keyword
+    int salary(){
+        return 1000;
+    }
 }

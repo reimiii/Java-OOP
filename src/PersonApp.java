@@ -14,11 +14,14 @@ public class PersonApp {
         var person = new Person();
         person.name = "Hilmi";
         person.address = "Bogor";
+        System.out.println("Gaji: " + person.name + " -> " + person.salary());
         person.sayHelloTo("David");
 
         var manager = new Manager();
         manager.name = "David";
         manager.address = "Depok";
+        System.out.println("Belum naik Gaji: -> " + manager.getSalary());
+        System.out.println("Sudah naik Gaji: " + manager.name + " -> " + manager.salary());
         manager.sayHelloTo("Hilmi");
     }
 }
