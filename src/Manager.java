@@ -11,7 +11,7 @@ public class Manager extends Person {
 
     // override method parent
     int salary() {
-        return 2000;
+        return 3000;
     }
 
     // super keyword untuk mengakses method parent class
