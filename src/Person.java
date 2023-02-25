@@ -3,6 +3,8 @@ public class Person {
     String address;
     final String country = "ID";
 
+    // variable shadowing
+
     Person(String paramName, String paramAddress) {
         name = paramName;
         address = paramAddress;
