@@ -6,10 +6,10 @@ public class PersonApp {
         System.out.println(person1.address);
         System.out.println(person1.country);
 
-        person1.sayHello("Arieff");
+        person1.sayHelloTo("Arieff");
 
         var person2 = new Person("Toriq");
-        person2.sayHello("Bangun");
+        person2.sayHelloTo("Bangun");
 
         var person3 = new Person();
     }

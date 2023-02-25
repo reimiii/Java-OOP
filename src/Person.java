@@ -4,10 +4,11 @@ public class Person {
     final String country = "ID";
 
     // variable shadowing
+    // fix nya pake this keyword
 
-    Person(String paramName, String paramAddress) {
-        name = paramName;
-        address = paramAddress;
+    Person(String name, String address) {
+        this.name = name;
+        this.address = address;
     }
 
     Person(String paramName) {
@@ -18,8 +19,8 @@ public class Person {
         this(null);
     }
 
-    void sayHello(String paramName) {
-        System.out.println("Hello " + paramName + ", my name is " + name);
+    void sayHelloTo(String name) {
+        System.out.println("Hello " + name + ", my name is " + this.name);
     }
 
 
