@@ -7,5 +7,10 @@ public class PersonApp {
         System.out.println(person1.country);
 
         person1.sayHello("Arieff");
+
+        var person2 = new Person("Toriq");
+        person2.sayHello("Bangun");
+
+        var person3 = new Person();
     }
 }
