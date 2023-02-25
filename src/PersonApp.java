@@ -9,6 +9,8 @@ public class PersonApp {
         System.out.println(person1.address);
         System.out.println(person1.country);
 
+        person1.sayHello("Arieff");
+
 
         Person person2 = new Person();
         Person person3;
