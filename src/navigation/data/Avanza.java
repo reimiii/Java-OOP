@@ -17,4 +17,8 @@ public class Avanza implements Car {
     public boolean isMainTen() {
         return true;
     }
+
+    public String toString() {
+        return "Brand: " + getBrand();
+    }
 }

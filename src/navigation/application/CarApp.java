@@ -8,5 +8,6 @@ public class CarApp {
         car.drive();
         System.out.println(car.getTire());
         System.out.println("Big: " + car.isBig());
+        System.out.println(car);
     }
 }
