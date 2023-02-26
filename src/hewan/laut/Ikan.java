@@ -1,4 +1,9 @@
 package hewan.laut;
 
-public class Ikan {
+import hewan.Binatang;
+
+public class Ikan extends Binatang {
+    Ikan(String name, Integer price){
+        super(name, price);
+    }
 }

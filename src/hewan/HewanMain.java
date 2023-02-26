@@ -1,10 +1,8 @@
-package hewan.darat;
+package hewan;
 
-import hewan.Binatang;
-
-public class Kuda {
+public class HewanMain {
     public static void main(String[] args) {
-        Binatang binatang = new Binatang("Kuda", 1000000);
+        Binatang binatang = new Binatang("Mamalia", 1000);
         System.out.println(binatang.name);
         System.out.println(binatang.price);
     }
