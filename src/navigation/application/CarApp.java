@@ -7,5 +7,6 @@ public class CarApp {
         var car = new Avanza();
         car.drive();
         System.out.println(car.getTire());
+        System.out.println("Big: " + car.isBig());
     }
 }
