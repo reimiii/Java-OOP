@@ -16,6 +16,14 @@ public class Polymorphism {
     }
 
     static void helloToEveryBody(Person person) {
-        System.out.println("Yahooo " + person.name);
+        if (person instanceof VicePresident) {
+            VicePresident vicePresident = (VicePresident) person;
+            System.out.println("Yahooo VP " + vicePresident.name);
+        } else if (person instanceof Manager) {
+            Manager manager = (Manager) person;
+            System.out.println("Ahooy Manager " + manager.name);
+        } else {
+            System.out.println("Ohaaa " + person.name);
+        }
     }
 }
