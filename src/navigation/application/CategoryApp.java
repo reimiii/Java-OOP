@@ -1,4 +1,6 @@
-package navigation.data;
+package navigation.application;
+
+import navigation.data.Category;
 
 public class CategoryApp {
     public static void main(String[] args) {
