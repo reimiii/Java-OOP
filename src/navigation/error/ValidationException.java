@@ -1,4 +1,4 @@
-package navigation.data;
+package navigation.error;
 
 public class ValidationException extends Throwable {
     public ValidationException(String message){

@@ -1,7 +1,7 @@
 package navigation.application;
 
 import navigation.data.LoginRequest;
-import navigation.data.ValidationException;
+import navigation.error.ValidationException;
 import navigation.util.ValidationUtil;
 
 public class ValidationApp {
@@ -16,5 +16,9 @@ public class ValidationApp {
         } finally {
             System.out.println("Selalu di jalankan");
         }
+
+        LoginRequest loginRequest1 = new LoginRequest(null, null);
+        ValidationUtil.validateRuntime(loginRequest1);
+        System.out.println("Success");
     }
 }
