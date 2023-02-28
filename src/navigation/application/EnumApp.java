@@ -14,6 +14,9 @@ public class EnumApp {
         System.out.println("Description: " + customer.getLevel().getDescription());
 
         String levelName = Level.SUPER.name();
+        var clsObj = levelName.getClass();
+        var clsName = clsObj.getName();
+        System.out.println("Tipe data: " + clsName);
         System.out.println(levelName);
 
         Level level = Level.valueOf("SUPER");
